@@ -1,0 +1,67 @@
+body {
+    /* background-color: black; */
+    background-image: linear-gradient( to right, #141e30, #243b55);
+    font-family: 'montserrat';
+}
+
+.container-fluid {
+    padding-top: 2%;
+    padding-left: 7%;
+    /* padding-right: 1%; */
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    /* padding-left: 18px;
+    padding-right: 18px; */
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    /* font-family: "Montserrat-Light"; */
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    /* color: #fff724; */
+    color: #F9F54B;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.container {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
