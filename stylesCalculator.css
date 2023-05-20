@@ -2,28 +2,22 @@ body {
     background-color: #E1E5F8;
 }
 
-h1 {
-    text-align: center;
-    color: #3A98B9;
-    padding-bottom: 10px;
-}
-
 .container {
     height: 600px;
     width: 470px;
     background-color: #ECF2FF;
     text-align: center;
     padding: 50px;
-    margin-top: 10px;
+    margin-top: 0.6250em;
     box-shadow: inset 0 0 1rem 1rem rgba(0, 0, 0, 0.2);
     border-radius: 10%;
 }
 
 .alert {
-    height: 80px;
+    height: 5em;
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 2.5em;
+    margin-bottom: 1.875em;
 }
 
 .btn {
@@ -31,8 +25,8 @@ h1 {
     width: 60px;
 }
 
-.col-lg-3 {
-    padding: 10px 0px 10px 0px;
+.row-button {
+    padding: 0.625em 1.23em;
 }
 
 .input-group {
@@ -46,4 +40,15 @@ h1 {
     border: 1px solid #3A98B9;
     border-radius: 5px;
     font-weight: 500px;
+}
+
+@media (max-width:500px) {
+    .container {
+        margin-top: 70px;
+        height: 570px;
+        width: 370px;
+    }
+    .row-button {
+        padding: 0.625em 0.4em;
+    }
 }

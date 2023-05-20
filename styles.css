@@ -65,3 +65,30 @@ p {
     width: 100%;
     z-index: -1;
 }
+
+@media (max-width:500px) {
+    .navbar-collapse {
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    h1 {
+        font-size: 3.2em;
+        position: fixed;
+        padding-left: 25px;
+    }
+    .auto-type {
+        position: absolute;
+        display: block;
+        padding-top: 5px;
+        padding-left: 35px;
+    }
+    p {
+        font-size: 1.4em;
+        position: relative;
+        padding-top: 170px
+    }
+    .container-fluid {
+        padding-top: 20px;
+    }
+}
