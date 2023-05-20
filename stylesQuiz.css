@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap') @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
 body {
     background-color: #E98EAD;
 }
@@ -149,8 +147,7 @@ input {
 
 .score-board {
     margin-top: 0;
-    color: #060047;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .view-score {
@@ -217,9 +214,8 @@ svg {
     }
     .welcome-heading {
         padding-top: 200px;
-        font-size: 39px;
+        font-size: 40px;
         line-height: 50px;
-        /* font-family: 'Merriweather', serif; */
     }
     .clicking-heading {
         font-size: 25px;
@@ -231,6 +227,7 @@ svg {
         padding-top: 200px;
         font-size: 17px;
         padding-bottom: 15px;
+        line-height: 1.8em;
     }
     .start-button {
         height: 50px;
@@ -239,5 +236,41 @@ svg {
         font-weight: 400px;
         border: solid 2px green;
         border-radius: 15px;
+    }
+    .question {
+        font-size: 2.5em;
+        margin-left: 40px;
+    }
+    .timer {
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        padding-left: 105px;
+    }
+    .questions-options {
+        padding-top: 90px;
+    }
+    #options {
+        padding-top: 70px;
+    }
+    .option-buttons {
+        margin-top: 30px;
+        margin-left: 120px;
+    }
+    .flex-item {
+        margin: 0;
+    }
+    .next-submit-button {
+        padding-top: 50px;
+        text-align: center;
+    }
+    .score-div {
+        padding-top: 180px;
+    }
+    .view-score {
+        padding-top: 10px;
+    }
+    .start-again {
+        margin-top: 50px;
     }
 }

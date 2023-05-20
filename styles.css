@@ -12,6 +12,31 @@ body {
 
 .navbar {
     padding: 0 0 4.5rem;
+    transition: 0.3s all ease-in-out;
+}
+
+a {
+    position: relative;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: #F9F54B;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #fff;
+    transform: scale(1.15);
+}
+
+a:hover:after {
+    width: 100%;
 }
 
 .navbar-brand {
