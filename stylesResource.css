@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+body {
+    background: #000;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px auto 100px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.resources {
+    width: 30%;
+    height: 350px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background-color: #fff;
+    border: 15px solid #000;
+}
+
+img {
+    width: 70px;
+    margin-top: 15px;
+}
+
+h4 {
+    height: 30px;
+    width: 90%;
+    background-color: #fff;
+    margin: 20px auto;
+    position: relative;
+    font-family: 'Merriweather', sans-serif;
+}
+
+h4::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to right, #fff, #007bff);
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: -1;
+}
+
+h4::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to left, #fff, #007bff);
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+ul {
+    padding-left: 10%;
+    padding-top: 3%;
+    text-align: left;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: square;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li:hover {
+    color: #007bff;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.shadowOne {
+    height: 200px;
+    width: 80%;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 10%;
+    z-index: -1;
+}
+
+.shadowTwo {
+    height: 200px;
+    width: 64%;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 18%;
+    z-index: -2;
+}
+
+@media (max-width:500px) {
+    .resources {
+        width: 300px;
+    }
+    h1 {
+        padding-top: 70px;
+        margin-bottom: 50px;
+    }
+    .container {
+        padding-top: 50px;
+    }
+}

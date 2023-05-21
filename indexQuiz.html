@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="icon" sizes="100x200" href="icons8-math-100 (1).png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesQuiz.css">
+</head>
+
+<body>
+
+    <div class="container welcome">
+        <h1 class="welcome-heading ">Welcome To The Quiz!!!</h1>
+        <h2 class="clicking-heading "><em>click here  <img src="finger.png " height="50px " alt="finger-img "> to view the rules</em></h2>
+        <button class="button rules-btn btn btn-lg btn-primary ">Rules</button>
+    </div>
+
+    <div class="container rules ">
+        <ul class="rules-of-the-quiz">
+            <li>Maximum marks you can score is 10.</li>
+            <li>You have 60 sec time to answer 10 questions.</li>
+            <li>You can choose any one option out of four.</li>
+            <li>For Each correct answer you get 1 mark.</li>
+            <li>You get 0 marks for each unattempted or wrong answer.</li>
+            <li>Click on Next to view the next question.</li>
+            <li>Click on Submit to end the quiz at anytime.</li>
+        </ul>
+        <div class="start ">
+            <button class="start-button button btn btn-lg btn-outline-success ">Start Quiz</button>
+        </div>
+    </div>
+    <div class="container questions">
+        <div class="questions-options">
+            <h2 class="question">Question</h2>
+            <h1 class="timer">01:00</h1>
+            <div id="flex-container options">
+                <div class="flex-item ">
+                    <button id="option1" class="button btn btn-lg option-buttons">option1</button>
+                    <button id="option2" class="button btn btn-lg option-buttons">option2</button>
+                </div>
+                <div class="flex-item">
+                    <button id="option3" class="button btn btn-lg option-buttons ">option3</button>
+                    <button id="option4" class="button btn btn-lg option-buttons ">option4</button>
+                </div>
+            </div>
+            <div class="next-submit-button">
+                <button class="next button btn btn-lg btn-primary ">Next</button>
+                <button class="submit button btn btn-lg btn-success ">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="container score">
+        <div class="score-div">
+            <h1 class="score-board">Score Board</h1>
+            <div class="view-score">
+                <div class="outer">
+                    <div class="inner">
+                        <div id="number" class="totalScore">0</div>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+            </div>
+            <button class="start-again button btn btn-lg btn-success ">Take Quiz Again</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js "></script>
+    <script src="indexQuiz.js"></script>
+</body>
+
+</html>

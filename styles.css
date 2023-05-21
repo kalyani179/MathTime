@@ -1,0 +1,115 @@
+body {
+    /* background-color: black; */
+    background-image: linear-gradient( to right, #141e30, #243b55);
+    font-family: 'montserrat';
+}
+
+.container-fluid {
+    padding-top: 2%;
+    padding-left: 7%;
+    /* padding-right: 1%; */
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-color:hover {
+    transform: scale(1.15);
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.home-div {
+    background-color: #d3d03f;
+    color: white;
+    border-radius: 30px;
+}
+
+.home:hover {
+    color: white;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    /* font-family: "Montserrat-Light"; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    /* color: #fff724; */
+    color: #F9F54B;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.container {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (max-width:500px) {
+    .navbar-collapse {
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    h1 {
+        font-size: 3.2em;
+        position: fixed;
+        padding-left: 25px;
+    }
+    .auto-type {
+        position: absolute;
+        display: block;
+        padding-top: 5px;
+        padding-left: 35px;
+    }
+    p {
+        font-size: 1.4em;
+        position: relative;
+        padding-top: 170px
+    }
+    .container-fluid,
+    .navbar-nav {
+        padding-top: 20px;
+    }
+    .home-div {
+        margin-left: 23%;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
