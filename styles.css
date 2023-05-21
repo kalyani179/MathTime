@@ -15,45 +15,35 @@ body {
     transition: 0.3s all ease-in-out;
 }
 
-a {
-    position: relative;
-}
-
-a:after {
-    content: "";
-    position: absolute;
-    background-color: #F9F54B;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -3px;
-    transition: 0.3s;
-}
-
-a:hover {
-    color: #fff;
+.nav-color:hover {
     transform: scale(1.15);
-}
-
-a:hover:after {
-    width: 100%;
 }
 
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
+    color: white;
     font-weight: bold;
 }
 
 .nav-item {
     padding: 0 18px;
-    /* padding-left: 18px;
-    padding-right: 18px; */
+}
+
+.home-div {
+    background-color: #d3d03f;
+    color: white;
+    border-radius: 30px;
+}
+
+.home:hover {
+    color: white;
 }
 
 .nav-link {
     font-size: 1.5rem;
     /* font-family: "Montserrat-Light"; */
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -113,7 +103,13 @@ p {
         position: relative;
         padding-top: 170px
     }
-    .container-fluid {
+    .container-fluid,
+    .navbar-nav {
         padding-top: 20px;
+    }
+    .home-div {
+        margin-left: 23%;
+        width: 50%;
+        margin-bottom: 10px;
     }
 }
