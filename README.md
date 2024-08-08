@@ -1,9 +1,8 @@
 # MathTime
 
 **Technologies Used:** HTML, CSS, Bootstrap, JavaScript, jQuery  
-**Date:** March 2023
 
-MathTime is a user-friendly web application designed to enhance your calculation abilities. This app features a visually engaging interface with animations, sounds, and effects to make learning and practicing math more enjoyable.
+MathTime is a user-friendly web application designed to enhance your calculation abilities. This website features a visually engaging interface with animations, sounds, and effects to make learning and practicing math more enjoyable.
 
 ## Features
 
